@@ -135,7 +135,7 @@ Introducing</Text> <Flex><Text fontSize="40px" ml="70" mt="-5px">
 
 <Center>
 <Box width="400px" mt="30px">
-<Text fontSize="40px" ml="70px"> Healthy Recipies</Text>
+<Text fontSize="40px" ml="60px"> Healthy Recipies</Text>
 <Text  textAlign={"center"}>Fuel your day with recipes by Registered Dietitians and professional chefs.
 
 
