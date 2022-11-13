@@ -17,7 +17,7 @@ axios.get("https://mockapitestkiyaji.herokuapp.com/videos").then(res=>setItem(re
         <Heading color="#0987A0" mt="30px">Find Your Fitness.
 Something for Everyone.</Heading>
 <Text mt="30px" color="#00B5D8">A huge selection of workout videos and programs to help you look and feel your best.</Text></Box>
-<Image ml="200px" w="100%" borderRadius="10%" src="https://d18zdz9g6n5za7.cloudfront.net/workouts_programs/masthead-workouts-xs.jpg"></Image>  
+<Image ml="200px" w="100%"  src="https://d18zdz9g6n5za7.cloudfront.net/workouts_programs/masthead-workouts-xs.jpg"></Image>  
 </Center> 
          </Flex> </Box>
          <Box h="100px"><Heading ml="100px" mt="50px">Newest Free Workout Videos</Heading></Box>
