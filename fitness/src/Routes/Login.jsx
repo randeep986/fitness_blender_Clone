@@ -32,7 +32,7 @@ function checkdetail(e)
 {
     console.log(9)
     e.preventDefault()
-    let flag = false
+    let flag = true
 formdata.map((ele)=>{
   
     if(ele.firstname===validdata.username&&ele.password===validdata.password)
@@ -71,7 +71,7 @@ else{
 <Divider mt="10px" direction ="Horizontal"></Divider> 
 <Stack>
 <Input placeholder="Username" value={validdata.username} name="username" onChange={handlecheck}></Input>
-<Input placeholder="Password" value={validdata.password} name="password" onChange={handlecheck}></Input>
+<Input placeholder="Password" value={validdata.password} name="password" onChange={handlecheck} type="password"></Input>
 <Checkbox>Remember me</Checkbox> <Text></Text>
 <Button bg="#4299E1" onClick={checkdetail}>Sign in</Button>
 <Text textAlign={"center"}color="blue.300">FORGET PASSWORD</Text>
