@@ -20,52 +20,53 @@ Something for Everyone.</Heading>
 <Image ml="200px" w="100%"  src="https://d18zdz9g6n5za7.cloudfront.net/workouts_programs/masthead-workouts-xs.jpg"></Image>  
 </Center> 
          </Flex> </Box>
+         
          <Box h="100px"><Heading ml="100px" mt="50px">Newest Free Workout Videos</Heading></Box>
          
-         <Flex h="400px" bg="#EDFDFD" mt="20px">
+         <Flex h="400px" bg="#EDFDFD" mt="20px" mr="150px" ml="150px">
          {
             item.map((ele)=><>
               <Link to={`/workout/${ele.id}`}>  <Box ml="20px" mt="50px"  boxShadow='2xl'>
                     <Image src={ele.img}></Image>
-                    <Text fontSize="20px" textAlign={"center"} mt="20px" fontWeight="bold">{ele.title}</Text>
-                    <Flex><Text ml="20px" color="#0987A0" fontWeight={"bold"}>{ele.time}</Text><Spacer/><Text color="#0987A0"  mr="20px" fontWeight={"bold"}>{ele.title2}</Text></Flex>
+                    <Text fontSize="16px" textAlign={"center"} mt="20px" >{ele.title}</Text>
+                    <Flex><Text ml="20px" color="#0987A0" fontWeight={"bold"}>{ele.time}</Text><Spacer/><Text pb="60px"color="#0987A0"  mr="20px" fontWeight={"bold"}>{ele.title2} </Text></Flex>
                 </Box>
                 </Link>
             </>)
          }
 
          </Flex>
-         <Box h="100px"><Heading ml="100px" mt="50px">Newest Plus Workout Videos</Heading></Box>
+         <Box h="100px" ><Heading ml="100px" mt="50px">Newest Plus Workout Videos</Heading></Box>
 
          <Flex>
-         <Link to={`/store`}>  <Box ml="20px" mt="50px" w="325px"  boxShadow='2xl' h="350px">
+         <Link to={`/store`}>  <Box  mt="50px" w="245px"  boxShadow='2xl' h="350px" ml="150px">
                     <Image src="https://d18zdz9g6n5za7.cloudfront.net/video/640/640-1121-low-back-saver-aa9a.jpg"></Image>
-                    <Text fontSize="20px" textAlign={"center"} mt="20px" fontWeight="bold">Low Back Saver
-Exercises to Prevent and Relieve Back Pain</Text>
-                    <Flex><Text ml="20px" color="#0987A0" fontWeight={"bold"}>29 min</Text><Spacer/><Text color="#0987A0"  mr="20px" fontWeight={"bold"}>Lower Body</Text></Flex>
+                    <Text fontSize="`16px" textAlign={"center"} mt="20px" >Low Back Saver
+Exercises to Prevent and Relieve Back and Hip-joint Pain</Text>
+                    <Flex><Text ml="10px" color="#0987A0" fontWeight={"bold"}>29 min</Text><Spacer/><Text color="#0987A0"  mr="20px" fontWeight={"bold"}>Lower Body</Text></Flex>
                 </Box>
                 </Link>
                 <Spacer></Spacer>
-                <Link to="/store">  <Box ml="20px" mt="50px"  boxShadow='2xl' w="325px" h="350px">
+                <Link to="/store">  <Box  mt="50px"  boxShadow='2xl' w="245px" h="350px">
                     <Image src="https://d18zdz9g6n5za7.cloudfront.net/video/1119-kettlebell-cardio-and-strength-b325.jpg"></Image>
-                    <Text fontSize="20px" textAlign={"center"} mt="20px" fontWeight="bold">Kettlebell Cardio and Strength
-Fast-Paced Circuits With Compound Moves</Text>
-                    <Flex><Text ml="20px" color="#0987A0" fontWeight={"bold"}>30 min</Text><Spacer/><Text color="#0987A0"  mr="20px" fontWeight={"bold"}>Total Body</Text></Flex>
+                    <Text fontSize="16px" textAlign={"center"} mt="20px" >Kettlebell Cardio and Strength
+Fast-Paced Circuits  Compound Moves</Text>
+                    <Flex><Text ml="10px" color="#0987A0" fontWeight={"bold"}>30 min</Text><Spacer/><Text color="#0987A0"  mr="20px" fontWeight={"bold"}>Total Body</Text></Flex>
                 </Box>
                 </Link>
                 <Spacer></Spacer>
-                <Link to="/store">  <Box ml="20px" mt="50px"  boxShadow='2xl' w="325px" h="350px">
+                <Link to="/store">  <Box  mt="50px"  boxShadow='2xl' w="245px" h="350px">
                     <Image src="https://d18zdz9g6n5za7.cloudfront.net/video/1127-pilates-for-the-arms-and-abs-966f.jpg"></Image>
-                    <Text fontSize="20px" textAlign={"center"} mt="20px" fontWeight="bold">This fun upper-body and core-focused  your foundational strength and stability!
+                    <Text fontSize="16px" textAlign={"center"} mt="20px" >This fun upper-body and core-focused  your foundational strength!
 
 </Text>
-                    <Flex><Text ml="20px" color="#0987A0" fontWeight={"bold"}>40 min</Text><Spacer/><Text color="#0987A0"  mr="20px" fontWeight={"bold"}>Upper body core</Text></Flex>
+                    <Flex><Text ml="10px" color="#0987A0" fontWeight={"bold"}>40 min</Text><Spacer/><Text color="#0987A0"  mr="20px" fontWeight={"bold"}>Upper body core</Text></Flex>
                 </Box>
                 </Link>
                 <Spacer></Spacer>
-                <Link to="/store">  <Box ml="20px" mt="50px"  boxShadow='2xl' w="325px" h="350px">
+                <Link to="/store">  <Box mr="150px" mt="50px"  boxShadow='2xl' w="245px" h="350px" >
                     <Image src="https://d18zdz9g6n5za7.cloudfront.net/video/1115-lower-body-power-yoga-flow-a701.jpg"></Image>
-                    <Text fontSize="20px" textAlign={"center"} mt="20px" fontWeight="bold">Power Yoga for Hips
+                    <Text fontSize="16px" textAlign={"center"} mt="20px" >Power Yoga for Hips
 Build Strength and Increase Joint Mobility</Text>
                     <Flex><Text ml="20px" color="#0987A0" fontWeight={"bold"}>39 min</Text><Spacer/><Text color="#0987A0"  mr="20px" fontWeight={"bold"}> Lower body</Text></Flex>
                 </Box>

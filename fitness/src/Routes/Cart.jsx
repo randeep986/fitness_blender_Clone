@@ -70,7 +70,7 @@ export default function Cart(props)
     
         <Text mt="20px" ml="10px" color="grey">FB PLUS PASS</Text>
         <Text mt="20px" ml="10px" fontWeight={"bold"}>{time}</Text>
-        <Flex mt="20px" ml="10px" fontWeight={"bold"} ><Text>${price}</Text><Spacer/><Button bg="#4299E1" mb="5px" mr="5px" onClick={()=>addtocart(id)}>ADD TO BAG</Button></Flex>
+        <Flex mt="20px" ml="10px" fontWeight={"bold"} ><Text>${price}</Text><Spacer/><Button bg="#4296cb" mb="5px" mr="5px" onClick={()=>addtocart(id)} color="white" fontSize="13px">ADD TO BAG</Button></Flex>
     </Box>
 
 </Box>

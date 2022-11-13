@@ -18,7 +18,7 @@ export default function Allroutes()
 <Route path="/workout" element={<Workout/>}></Route>
 <Route path="/login" element={<Login/>}></Route>
 <Route path="/checkout" element={<Checkout/>}></Route>
-<Route path="/store" element={<Privateroute><Store/></Privateroute>}></Route>
+<Route path="/store" element={<Store/>}></Route>
 <Route path="/workout/:id" element={<SinglePage/>}></Route>
 <Route path="/membership" element={<Membership/>}></Route>
         </Routes>
