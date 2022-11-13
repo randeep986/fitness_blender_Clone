@@ -53,15 +53,15 @@ Introducing</Text> <Flex><Text fontSize="40px" ml="70" mt="-5px">
 
 {/* <--------------------------third box---------------------------------> */}
 <Flex>
-<Box w="50%" h="auto" bg="RGBA(0, 0, 0, 0.16)" m="10px" mt="-0px">
+<Box w="50%" h="auto" bg="#f0f4f6" m="10px" mt="-0px" mb="170px" ml="10px">
 
 <Center>
-<Box width="400px" mt="50px">
-<Text fontSize="40px" ml="60px"> Workout Videos</Text>
-<Text textAlign={"center"}>Exercise with certified personal trainers whether you’re at home or on the road.
+<Box width="400px" mt="50px" >
+<Text fontSize="40px" ml="50px"> Workout Videos</Text>
+<Text textAlign={"center"} fontSize="16px">Exercise with certified personal trainers whether you’re at home or on the road.
 
 </Text>
-<Text color="#2C5282" ml="120px">
+<Text color="#2C5282"  textAlign={"center"} paddingBottom="15px">
 <Link >Find a Workout</Link>
 </Text>
 </Box>
@@ -69,36 +69,36 @@ Introducing</Text> <Flex><Text fontSize="40px" ml="70" mt="-5px">
 
     <Image src="https://cloudfront.fitnessblender.com/assets/img/homepage/workouts-720.webp"></Image>
 </Box>
-<Box w="50%" h="600px" mt="20px">
+<Box w="50%" h="530px"  bg="#f9fcfd" m="10px" mt="0px" ml="0px"  >
 
 <Center>
-<Box width="400px" mt="30px">
+<Box width="400px"  mt="40px" >
 <Text fontSize="40px" ml="90px"> Programs</Text>
 <Text  textAlign={"center"}>Professionally designed programs take the guesswork out of exercising.
 
 </Text>
-<Text color="#2C5282" ml="120px">
-<Link >Find a Workout</Link>
+<Text color="#2C5282" ml="120px" paddingBottom="15px" >
+<Link   >Browse All Programs</Link>
 </Text>
-</Box>
+</Box >
 </Center>
 
-    <Image src="https://cloudfront.fitnessblender.com/assets/img/homepage/programs-720.webp"></Image>
+    <Image paddingBottom="-10px"  src="https://cloudfront.fitnessblender.com/assets/img/homepage/programs-720.webp"></Image>
 </Box>
 </Flex>
 
 <Flex>
 
-<Box w="50%" h="540px" mt="20px" bg="black">
+<Box w="50%" h="542px" mt="-160px" bg="black" ml="10px">
 
 <Center>
-<Box width="400px" mt="30px" >
+<Box width="400px" mt="50px" >
 <Text fontSize="40px" ml="60px" color="white"> Wellness Articles
 </Text>
-<Text  textAlign={"center"} color="white">Research-backed articles to help you care for your body and mind.
+<Text  textAlign={"center"} color="white" fontSize="16px">Research-backed articles to help you care for your body and mind.
 </Text>
-<Text color="#2C5282" ml="140px">
-<Link >Find a Workout</Link>
+<Text color="#2C5282" ml="130px"  pt="10px">
+<Link >Learn from Experts</Link>
 </Text>
 </Box>
 </Center>
@@ -108,18 +108,18 @@ Introducing</Text> <Flex><Text fontSize="40px" ml="70" mt="-5px">
 
 
 
-<Box w="50%" h="540px" mt="20px" bg="RGBA(0, 0, 0, 0.16)" ml="20px">
+<Box w="50%" h="530px" mt="-160px" bg="#d8d9da" ml="10px" mr="10px">
 
 <Center>
-<Box width="400px" mt="30px">
+<Box width="400px" mt="50px" >
 <Text fontSize="40px" ml="70px"> Healthy Recipies</Text>
 <Text  textAlign={"center"}>Fuel your day with recipes by Registered Dietitians and professional chefs.
 
 
 
 </Text>
-<Text color="#2C5282" ml="120px">
-<Link >Find a Workout</Link>
+<Text color="#2C5282" ml="150px" pt="10px">
+<Link >Find a Recipe</Link>
 </Text>
 </Box>
 </Center>
@@ -131,23 +131,23 @@ Introducing</Text> <Flex><Text fontSize="40px" ml="70" mt="-5px">
 </Flex>
 
 
-<Box   mt="20px" ml="20px" bg="#EDFDFD">
+<Box   mt="10px" ml="10px" bg="#effbff" mr="10px" >
 
 <Center>
-<Box width="400px" mt="30px">
-<Text fontSize="40px" ml="70px"> Healthy Recipies</Text>
-<Text  textAlign={"center"}>Fuel your day with recipes by Registered Dietitians and professional chefs.
+<Box width="500px" mt="30px">
+<Text fontSize="40px" ml="70px" pb="10px"> Supportive Community</Text>
+<Text   pl="60px" textAlign="center" >Stay motivated and engaged with a little help from a supportive community of other members.
 
 
 
 </Text>
-<Text color="#2C5282" ml="120px">
-<Link >Find a Workout</Link>
+<Text color="#2C5282" ml="120px" textAlign="center" pr="40px" pt="20px">
+<Link >Become a Member</Link>
 </Text>
 </Box>
 </Center>
 
-    <Image mt="20px" src="https://cloudfront.fitnessblender.com/assets/img/homepage/community-2160.webp"></Image>
+    <Image  src="https://cloudfront.fitnessblender.com/assets/img/homepage/community-2160.webp"></Image>
 </Box>
 
 <Header/>
